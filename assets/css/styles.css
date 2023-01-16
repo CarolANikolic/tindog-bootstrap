@@ -66,9 +66,9 @@ h3 {
 /* Icons */
 
 #features i {
-    color: var(--pink);
+    color: var(--red);
 }
 
 #features i:hover {
-    color: var(--red);
+    color: var(--pink);
 }
