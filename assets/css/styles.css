@@ -57,3 +57,13 @@ h1 {
 .phone-img {
     transform: rotate(25deg);
 }
+
+/* Icons */
+
+#features i {
+    color: var(--pink);
+}
+
+#features i:hover {
+    color: var(--red);
+}
