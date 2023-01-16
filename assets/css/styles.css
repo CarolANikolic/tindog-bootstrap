@@ -1,10 +1,15 @@
+:root {
+    --red: #ef4444;
+    --pink: #e7427c;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 #title {
-    background-color: #ef4444;
+    background-color: var(--red);
 }
 
 .container-fluid {
@@ -14,7 +19,7 @@ body {
 /*Navigation Bar*/
 
 nav {
-    background-color: #ef4444;
+    background-color: var(--red);
 }
 
 .navbar-brand {
@@ -28,7 +33,7 @@ nav {
 }
 
 .nav-link {
-    font-family: 'Montserrat-light'
+    font-family: 'Montserrat-light';
     font-size: 1.2rem;
 }
 
