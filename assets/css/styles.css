@@ -67,6 +67,7 @@ h3 {
 
 #features i {
     color: var(--red);
+    opacity: .5;
 }
 
 #features i:hover {
