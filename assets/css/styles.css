@@ -84,3 +84,9 @@ h3 {
     background-color: var(--lighterRed);
     color: var(--white);
 }
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
