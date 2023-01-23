@@ -91,3 +91,8 @@ h3 {
     margin: 20px;
 }
 
+#press {
+    background-color: var(--lighterRed);
+    text-align: center;
+    padding-bottom: 3%;
+}
