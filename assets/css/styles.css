@@ -78,7 +78,7 @@ h3 {
 
 /* Testimonial Section */
 
-#testimonials {
+.carousel-item {
     padding: 7% 15%;
     text-align: center;
     background-color: var(--lighterRed);
