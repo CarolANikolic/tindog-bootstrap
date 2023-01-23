@@ -96,3 +96,8 @@ h3 {
     text-align: center;
     padding-bottom: 3%;
 }
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
