@@ -1,6 +1,8 @@
 :root {
     --red: #ef4444;
+    --lighterRed: #ed7373;
     --pink: #e7427c;
+    --white: #fff;
 }
 
 body {
@@ -72,4 +74,13 @@ h3 {
 
 #features i:hover {
     color: var(--pink);
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: var(--lighterRed);
+    color: var(--white);
 }
