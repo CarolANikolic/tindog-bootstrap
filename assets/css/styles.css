@@ -65,7 +65,19 @@ h3 {
     transform: rotate(25deg);
 }
 
+.phone-container {
+    position: absolute;
+    width: 40%;
+    right: 5%;
+    top: 25%;
+
+}
 /* Icons */
+
+#features {
+    position: relative;   
+    background-color: var(--white);
+}
 
 #features i {
     color: var(--red);
@@ -101,3 +113,10 @@ h3 {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+#pricing {
+    padding: 5%;
+    text-align: center;
+}
+
+
