@@ -66,12 +66,13 @@ h3 {
 }
 
 .phone-container {
-    position: absolute;
     width: 40%;
-    right: 5%;
-    top: 25%;
-
+    right: 0;
+    position: absolute;
+    text-align: center;
+    
 }
+
 /* Icons */
 
 #features {
@@ -117,6 +118,13 @@ h3 {
 #pricing {
     padding: 5%;
     text-align: center;
+}
+
+@media (min-width: 992px) {
+    .phone-container {
+        right: 5%;
+        top: 25%;
+    }
 }
 
 
