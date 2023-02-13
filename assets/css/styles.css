@@ -129,6 +129,14 @@ h3 {
     border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
 }
 
+/* Call to Action on the Bottom */
+.cta {
+    background-color: var(--red);
+    padding: 7% 15%;
+    color: var(--white);
+    font-weight: 600;
+}
+
 @media (max-width: 1000px) {
     .container-fluid {
         text-align: center;
