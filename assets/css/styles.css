@@ -69,8 +69,7 @@ h3 {
     width: 40%;
     right: 0;
     position: absolute;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 /* Icons */
@@ -130,10 +129,19 @@ h3 {
     border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
 }
 
-@media (min-width: 992px) {
+@media (max-width: 1000px) {
+    .container-fluid {
+        text-align: center;
+    }
+
     .phone-container {
-        right: 5%;
-        top: 25%;
+        position: static; 
+        width: 100%;
+    }
+
+    .phone-img {
+        transform: rotate(0deg);
+        position: static;
     }
 }
 
