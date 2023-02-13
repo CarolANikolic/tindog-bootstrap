@@ -8,6 +8,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    text-align: center;
 }
 
 #title {
@@ -16,6 +17,10 @@ body {
 
 .container-fluid {
     padding: 3% 10%;
+}
+
+.sections-padding {
+    padding: 7% 15%;
 }
 
 /*Navigation Bar*/
@@ -41,16 +46,19 @@ nav {
 
 /*Titles*/
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 3rem;
     line-height: 1.5;
+    font-weight: bold;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+h1, h2 {
+    font-size: 3rem;
+}
+
+.main-heading {
+    text-align: left;
 }
 
 /*Download Buttons*/
@@ -69,7 +77,6 @@ h3 {
     width: 40%;
     right: 0;
     position: absolute;
-    text-align: center;  
 }
 
 /* Icons */
@@ -91,8 +98,6 @@ h3 {
 /* Testimonial Section */
 
 .carousel-item {
-    padding: 7% 15%;
-    text-align: center;
     background-color: var(--lighterRed);
     color: var(--white);
 }
@@ -105,7 +110,6 @@ h3 {
 
 #press {
     background-color: var(--lighterRed);
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -116,7 +120,6 @@ h3 {
 
 #pricing {
     padding: 5%;
-    text-align: center;
 }
 
 .sign-btn {
@@ -132,24 +135,19 @@ h3 {
 /* Call to Action on the Bottom */
 .cta {
     background-color: var(--red);
-    padding: 7% 15%;
     color: var(--white);
     font-weight: 600;
 }
 
 /* Footer */
-#footer {
-    text-align: center;
-    padding: 7% 10%;
-}
-
 #footer > i {
     padding-left: 10px;
     padding-bottom: 3%;
 }
 
 @media (max-width: 1000px) {
-    .container-fluid {
+   
+    .main-heading {
         text-align: center;
     }
 
