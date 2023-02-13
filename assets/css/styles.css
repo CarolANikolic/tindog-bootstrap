@@ -15,6 +15,11 @@ body {
     padding: 3% 10%;
 }
 
+.container-fluid.row {
+    padding: 3% 10% 5% 10%;
+    text-align: left;
+}
+
 .sections-padding {
     padding: 7% 15%;
 }
@@ -148,10 +153,15 @@ h1, h2 {
     padding-bottom: 3%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 990px) {
    
     .main-heading {
         text-align: center;
+    }
+
+    .container-fluid.row {
+        text-align: center;
+        
     }
 
     .phone-container {
@@ -162,6 +172,13 @@ h1, h2 {
     .phone-img {
         transform: rotate(0deg);
         position: static;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .container-fluid.row {
+        padding-bottom: 20%;
     }
 }
 
