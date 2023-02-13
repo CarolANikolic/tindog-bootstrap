@@ -123,6 +123,10 @@ h1, h2 {
     padding: 5%;
 }
 
+.card-body {
+    padding-bottom: 15%;
+}
+
 .sign-btn {
     position: absolute;
     bottom: 0;
