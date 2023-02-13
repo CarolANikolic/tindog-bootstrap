@@ -11,10 +11,6 @@ body {
     text-align: center;
 }
 
-#title {
-    background-color: var(--red);
-}
-
 .container-fluid {
     padding: 3% 10%;
 }
@@ -24,10 +20,6 @@ body {
 }
 
 /*Navigation Bar*/
-
-nav {
-    background-color: var(--red);
-}
 
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
@@ -67,6 +59,17 @@ h1, h2 {
     margin: 5% 3% 5% 0;
 }
 
+/* Sections */
+
+.colored-sec {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.white-sec {
+    background-color: var(--white);
+}
+
 /*Hero Image*/
 
 .phone-img {
@@ -83,7 +86,6 @@ h1, h2 {
 
 #features {
     position: relative;   
-    background-color: var(--white);
 }
 
 #features i {
@@ -97,9 +99,8 @@ h1, h2 {
 
 /* Testimonial Section */
 
-.carousel-item {
+#testimonials .carousel-item {
     background-color: var(--lighterRed);
-    color: var(--white);
 }
 
 .testimonial-img {
@@ -127,19 +128,18 @@ h1, h2 {
     bottom: 0;
     left: 0;
     padding: 5% 3%;
-    background-color: var(--white);
     width: 100%;
     border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
 }
 
 /* Call to Action on the Bottom */
+
 .cta {
-    background-color: var(--red);
-    color: var(--white);
     font-weight: 600;
 }
 
 /* Footer */
+
 #footer > i {
     padding-left: 10px;
     padding-bottom: 3%;
