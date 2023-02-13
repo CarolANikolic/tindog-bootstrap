@@ -140,7 +140,12 @@ h3 {
 /* Footer */
 #footer {
     text-align: center;
-    padding: 2% 10%;
+    padding: 7% 10%;
+}
+
+#footer > i {
+    padding-left: 4px;
+    padding-bottom: 3%;
 }
 
 @media (max-width: 1000px) {
