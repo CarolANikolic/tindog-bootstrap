@@ -133,7 +133,6 @@ h1, h2 {
     left: 0;
     padding: 5% 3%;
     width: 100%;
-    border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
 }
 
 /* Call to Action on the Bottom */
