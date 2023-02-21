@@ -1,6 +1,6 @@
 # Tindog - Landing page for dogs to find love
 
-Tindog is a landing page for advertising an app for your dog to find its match. This is a project that is part of a Web Development Bootcamp made by Angela Yu. I developed Tindog to learn about the Bootstrap framework and compare it with Tailwindcss, a framework used on another Tindog project.
+Tindog is a landing page for advertising an app for your dog to find its match. This is a project that is part of a Web Development Bootcamp made by Angela Yu. I developed Tindog to learn about the Bootstrap framework and compare it with Tailwindcss.
 
 <img src="assets/images/readme-files/tindog-screenshot.png" width=100% alt="tindog interface">
 
